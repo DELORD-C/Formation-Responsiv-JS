@@ -1,0 +1,25 @@
+#big {
+    max-width: 100%;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+#grid > img {
+    width: 100%;
+}
+
+#flex {
+    display: flex;
+}
+
+#flex > img {
+    width: 50%;
+}
+
+* {
+    box-sizing: border-box;
+}
