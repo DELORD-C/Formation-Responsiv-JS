@@ -1,0 +1,76 @@
+@media screen and (max-width: 1000px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    #header {
+        width: calc(100% - 20px);
+    }
+    
+    #header #logo {
+        float: none;
+    }
+
+    #header #topnav {
+        float: none;
+        text-align: left;
+        width: 100%;
+    }
+
+    #header ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #latest {
+        display: grid;
+        justify-content: center;
+    }
+
+    #latest > * {
+        width: 100%!important;
+    }
+
+    .fl_left img {
+        width: 100%;
+    }
+
+    #header, #intro, #latest, #breadcrumb, #container, #footer, #copyright {
+        width: 100%;
+    }
+
+    #content {
+        width: 100%;
+    }
+
+    #column {
+        float: none;
+        width: 100%;
+    }
+
+    #footer .footbox {
+        float: none;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #intro li {
+        width: 100%;
+    }
+
+    #intro div.imgholder a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #intro div.imgholder {
+        width: 100%;
+    }
+}
