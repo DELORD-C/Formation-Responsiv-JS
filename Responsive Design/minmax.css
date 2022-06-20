@@ -23,3 +23,12 @@
 * {
     box-sizing: border-box;
 }
+
+p {
+    font-size: 1rem;
+}
+
+/* html */
+:root {
+    font-size: 50px;
+}
