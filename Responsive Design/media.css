@@ -1,0 +1,18 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    /* background-image: url(petite.jpg);
+    background-size: cover;
+    background-position: center; */
+    position: absolute;
+    overflow: hidden;
+}
+
+video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
