@@ -1,0 +1,33 @@
+body {
+    margin: 20px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 50%;
+    border: solid 4px #563fd7;
+    position: absolute;
+    left: -12px;
+    top: 49px;
+    background: #fff;
+}
+
+.event {
+    border-left: solid 4px #563fd7;
+    background-color: #e4e0f9;
+    padding: 40px 50px;
+    position: relative;
+}
+
+.date {
+    padding: 45px 50px;
+    text-align: right;
+    color: rgb(171, 171, 171);
+}
+
+#container-main {
+    max-width: 800px;
+}
+
