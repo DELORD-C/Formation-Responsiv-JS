@@ -32,10 +32,6 @@
         width: 100%!important;
     }
 
-    .fl_left img {
-        width: 100%;
-    }
-
     #header, #intro, #latest, #breadcrumb, #container, #footer, #copyright {
         width: 100%;
     }
@@ -71,6 +67,10 @@
     }
 
     #intro div.imgholder {
+        width: 100%;
+    }
+
+    .fl_left img {
         width: 100%;
     }
 }

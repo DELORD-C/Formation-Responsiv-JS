@@ -1,0 +1,12 @@
+body {
+    display: flex;
+}
+
+img {
+    width: 150px;
+}
+
+#three {
+    order: 0;
+    filter: grayscale(2);
+}
