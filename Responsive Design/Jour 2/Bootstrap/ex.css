@@ -8,3 +8,10 @@
 #form-eye {
     position: relative;
 }
+
+#big {
+    box-sizing: content-box;
+    padding: 20px;
+    width: 100px;
+}
+

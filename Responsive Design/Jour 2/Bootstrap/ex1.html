@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex1</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="ex1.css">
+</head>
+<body>
+    <div class="container-sm mt-5">
+        <div class="modal-content p-3 rounded-3">
+            <div class="modal-header">
+                <h5 class="modal-title"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container mt-4">
+                    <div class="row border-top">
+                        <div class="col"><img class="mt-3" src="visa.png"></div>
+                        <div class="col"><img class="mt-3" src="paypal.png"></div>
+                    </div>
+                    <div class="row mt-5">
+                        <h5 class="text-center display-5">Credit Card</h2>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="form-floating">
+                            <input type="text" class="form-control mb-3 border-0 border-bottom" id="name" placeholder="Cardholder Name">
+                            <label for="name">Cardholder Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-floating" id="form-eye">
+                            <input type="text" class="form-control mb-3 border-0 border-bottom" id="cnumber" placeholder="Card Number">
+                            <label for="cnumber">Card Number</label>
+                            <i id="eye" class="fa-solid fa-eye"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-floating">
+                                <input type="text" class="form-control mb-3 border-0 border-bottom" id="date" placeholder="Expiration Date">
+                                <label for="date">Expiration Date</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-floating">
+                                <input type="text" class="form-control mb-3 border-0 border-bottom" id="cvv" placeholder="CVV">
+                                <label for="cvv">CVV</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <input type="submit" class="btn btn-success rounded-pill mx-auto" value="Add Card" id="submit">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>

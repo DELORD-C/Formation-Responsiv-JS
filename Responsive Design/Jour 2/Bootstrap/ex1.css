@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(149, 149, 149);
+}
+
+.modal-content {
+    background-color: rgb(255, 255, 255);
+}
+
+.border-top > div {
+    border-top: 5px solid rgb(202, 202, 202);
+}
+
+.border-top > div:first-child {
+    border-color: rgb(52, 143, 255);
+}
+
+#eye {
+    position: absolute;
+    top: calc(50% - 15px);
+    right: 40px;
+    cursor: pointer;
+}
+
+#form-eye {
+    position: relative;
+}
+
+#submit {
+    width: 400px;
+}
