@@ -1,0 +1,10 @@
+#eye {
+    position: absolute;
+    top: calc(50% - 8px);
+    right: 10px;
+    cursor: pointer;
+}
+
+#form-eye {
+    position: relative;
+}

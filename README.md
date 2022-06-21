@@ -67,8 +67,11 @@ L'id est un identifiant unique pouvant être utile en html (pour relier un label
 ## Unités
 
 px : pixels
+
 % : pourcentage de la taille du parent
-vw, vh : visual width, visuel height, pourcenntage de la taille de la fenêtre
+
+vw, vh : visual width, visuel height, pourcentage de la taille de la fenêtre
+
 em : taille en fonction de la taille de la police du parent
 rem : taille en fonction de la taille de la police du document
 fr : taille uniquement disponible avec le `display : grid`, correspond à 100% de l'espace disponible
