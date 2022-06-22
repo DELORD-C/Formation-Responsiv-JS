@@ -29,8 +29,14 @@ class Personnage {
     }
 
     attaque (cible) {
-        let degats = (this.force + this.agilite + this.intelligence) / 5;
+        // let degats = (this.force + this.agilite + this.intelligence) / 5;
+        let degats = 9999;
         cible.hp -= degats;
         console.log(cible.nom + " perd " + degats + " points de vie.");
+        if (cible.hp <= 0) {
+            console.log(cible.nom + " est décédé.");
+            return true;
+        }
+        return false;
     }
 }
