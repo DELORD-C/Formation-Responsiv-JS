@@ -26,4 +26,4 @@ function displaySapin (hauteur) {
     console.log(sp.repeat(hauteur - 1) + '|');
 }
 
-displaySapin(50000);
+displaySapin(10);

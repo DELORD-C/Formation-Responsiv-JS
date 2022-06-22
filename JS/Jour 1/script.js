@@ -62,3 +62,6 @@ function nomDeLaFonction (b = 10, a) {
 }
 
 nomDeLaFonction(10);
+
+let x, y, rest;
+[x, y, ...rest] = [10, 20, 30, 40, 50, 60, 90];
