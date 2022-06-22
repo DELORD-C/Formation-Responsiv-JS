@@ -2,7 +2,7 @@ let search = document.getElementById('search'),
     list = document.getElementsByTagName('li'),
     timeout;
 
-search.addEventListener('input', (e) => {
+search.addEventListener('input', () => {
     clearTimeout(timeout);
     timeout = setTimeout(filter, 500);
 });
