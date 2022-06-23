@@ -37,6 +37,8 @@ class Personnage {
             console.log(cible.nom + " est décédé.");
             return true;
         }
-        return false;
+        else {
+            return false;
+        }
     }
 }
