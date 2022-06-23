@@ -11,6 +11,8 @@ items.forEach(function (item) {
 
 function handleDragStart (e) {
     target = e.target;
+    target.style.opacity = '0';
+    target.style.height = '0';
     let li = document.createElement('li');
     li.setAttribute('id', 'invisible');
     ul.appendChild(li);
@@ -19,11 +21,11 @@ function handleDragStart (e) {
 }
 
 function handleDragEnd (e) {
-    if (target != drop) {
-        target.remove();
-        ul.insertBefore(target, drop);
-        document.getElementById('invisible').remove();
-    }
+    target.remove();
+    ul.insertBefore(target, drop);
+    document.getElementById('invisible').remove();
+    target.style.opacity = '1';
+    target.style.height = '';
 }
 
 function handleDragEnter (e) {
