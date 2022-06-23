@@ -24,5 +24,5 @@ let kiki = new Personnage('Kiki', 'Mage');
 let garen = new Personnage('Garen', 'Gogole');
 
 if (kiki.attaque(garen)) {
-    cible = null;
+    garen = null;
 }
